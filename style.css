@@ -1,0 +1,554 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: black;
+    background-color: #c1d3f4;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 75px;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+nav {
+    font-size: 22px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    align-items: center;
+    height: 55px;
+    background-color: #106dbe;
+    color: #0FFCBE;
+    box-shadow: 0 2px 5px #0b5ba2bd;
+    transition: background-color 0.3s;
+}
+
+.logo {
+    width: 180px;
+    filter: brightness(1.2);
+}
+
+.right {
+    position: relative;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    background-color: #106dbe;
+    padding: 0;
+    margin-right:290px;
+    z-index: 999;
+    max-height: 300px;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0FFCBE;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #0FFCBE;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+    color: #f0f0f0;
+}
+
+main hr {
+    border: 0;
+    background: #106dbe8f;
+    height:2.5px;
+    margin: 40px 84px;
+}
+img{
+    border-radius: 10%;
+}
+
+video{
+    border-radius: 3%;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+
+}
+
+::-webkit-scrollbar-thumb{
+background: #106dbe;
+border-radius: 10px;
+}
+
+h2{
+    display: block;
+    color: #106dbe;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.div{
+    width: 100%;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+  color: white;
+    padding: 70px;
+    background-color: #106dbe;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /* margin: 80px 0; */
+    /* padding-top: 100px; */
+}
+
+.firstSection>div {
+    width: 30%
+}
+
+.leftSection {
+    font-size: 2.5rem;
+}
+
+.rightSection img {
+    width: 80%;
+    margin-top: 30px;
+}
+
+.blue {
+    color: #0FFCBE;
+}
+
+#element {
+    color: #0FFCBE;
+}
+
+.about h1 {
+    margin-top: 50px;
+    font-size: 3.7rem;
+    margin-bottom: 60px;
+    text-align: center;
+    color: #106dbe;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    /* color: #0FFCBE; */
+}
+
+.secondSection>.about-leftSection {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-leftSection img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image fully covers the container */
+}
+
+
+.secondSection>.about-rightSection {
+    /* background-color: red; */
+    width: 35%;
+}
+
+.my_journey h1 {
+    font-size: 3.7rem;
+    margin-bottom: 60px;
+    text-align: center;
+    color:  #106dbe;
+}
+
+.thirdSection {
+    max-width: 80vw;
+    margin: auto;
+    
+}
+
+
+.thirdSection>.my_journey-leftSection {
+    /* background-color: rgb(126, 32, 106); */
+    width: 38%;
+    display: flex;
+    text-align: center;
+}
+
+.thirdSection>.my_journey-rightSection {
+    display: flex;
+    /* background-color: red; */
+    width: 42%;
+    /* margin-left: 30%; */
+}
+
+.my_journey-rightSection img {
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    }
+
+    .content img {
+        width: 40%; /* Adjust width as needed */
+        max-width: 300px; /* Prevent it from getting too large */
+        height: auto;
+        border-radius: 8px; /* Rounded corners */
+        object-fit: cover;
+      }
+
+      .content video{
+        /* width: 500px; */
+        /* max-width: 350px; */
+        max-height: 550px;
+        margin-bottom: 15px;
+    }
+      
+      .text {
+        padding-top: 20px;
+        font-size: 18px;
+      }
+
+      .services h1 {
+        font-size: 3.7rem;
+        margin-bottom: 60px;
+        text-align: center;
+        color: #106dbe;
+    }
+
+      .fourthSection {
+        max-width: 80vw;
+        margin: auto;
+        justify-content: space-around;
+        width: 20%;
+        padding-bottom: 120px;
+    }
+    
+    .fourthSection img {
+    border-radius: 15px;
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+    }
+    
+    .fourthSection img:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Optional shadow for better visuals */
+    }
+    
+    
+    .services ul {
+        display: flex;
+        justify-content: center;
+         }
+    
+    .services ul li {
+        list-style: none;
+        margin: 0 23px;
+    }
+    
+    .services ul li a {
+        text-decoration: none;
+    
+        font-size: 30px
+    }
+    
+    .services ul li a:hover {
+        text-decoration: none;
+        color: #0d5782;
+    }
+
+footer {
+        background-color:  #106dbe;
+       }
+
+.footer{
+display: flex;
+justify-content: space-around;
+padding: 23px 122px ;
+display: flex;
+flex-wrap: wrap;
+height: 100px;
+align-items: center;
+padding: 20px;
+}
+
+.footer-left img {
+max-width: 100%;
+}
+
+.footer-right ul {
+list-style: none;
+display: flex;
+gap: 15px; /* Space between icons */
+padding: 0;
+margin: 0;
+}
+
+.footer-right img {
+height: auto;
+transition: transform 0.3s ease; /* Add hover effect */
+}
+
+.footer-right img:hover {
+transform: scale(1.1); /* Slight zoom on hover */
+}
+
+.footer-right ul li {
+display: inline-block;
+}
+
+.footer ul{
+list-style: none;
+}
+
+.footer div{
+width: 223px;
+}
+
+footer .footer-rights {
+        text-align: center;
+        color: rgb(197, 193, 193);
+     padding: 12px 0; 
+    }   
+    .footer-right ul {
+justify-content: center;
+}
+
+.footer-rights {
+margin-top: 10px;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+
+    nav{
+        max-height: 45px;
+    }
+    nav ul {
+        display: none;
+    }
+
+    .firstSection {
+        padding-top: 15px;
+        padding-left:2px;
+        text-align: left; 
+        height: 260px;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .leftSection {
+        font-size: 1.7rem;
+        margin-bottom: 20px; 
+    }
+
+    .rightSection img {
+        width: 210px;
+        margin-top: 20px;
+    }
+
+    #element {
+        font-size: 1.7rem; 
+    }
+
+    .about h1 {
+        font-size: 3rem; /* Reduce font size for smaller screens */
+        margin-bottom: 30px;
+    }
+
+    .secondSection {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+        text-align: center;
+        max-width: 90vw; /* Use more width on smaller screens */
+    }
+
+    .secondSection > .about-leftSection,
+    .secondSection > .about-rightSection {
+        width: 90%; /* Increase width for better visibility */
+        margin-bottom: 0px; /* Add spacing between sections */
+    }
+
+    .about-leftSection {
+        height: auto; /* Let content define height */
+    }
+
+    .about-leftSection img {
+        width: 70%;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+.my_journey h1 {
+    font-size: 2.5rem; /* Reduce font size for smaller screens */
+    margin-bottom: 30px;
+}
+
+.thirdSection {
+    max-width: 90vw; /* Utilize more width for better spacing */
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center;
+}
+
+.thirdSection > .my_journey-leftSection,
+.thirdSection > .my_journey-rightSection {
+    width: 100%; /* Full width for better readability */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Add spacing between sections */
+}
+
+.my_journey-rightSection img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+}
+
+.content {
+    /* flex-direction: column; */
+    align-items: center;
+    text-align: center;
+}
+
+.content img {
+    width: 30%; /* Adjust image width for better fit */
+    max-width: 250px; /* Prevent it from being too large */
+    margin-bottom: 15px; /* Add spacing below image */
+}
+
+.text {
+    font-size: 16px; /* Slightly reduce text size */
+    padding: 10px;
+}
+
+.content video{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    max-width: 450px;
+    max-height: 180px;
+    margin-bottom: 15px;
+}
+
+.services h1 {
+    font-size: 3.7rem;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #106dbe;
+}
+
+.fourthSection {
+    padding-bottom: 90px;
+}
+
+.fourthSection img {
+    max-width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.services ul {
+    align-items: center;
+
+   
+}
+
+.services ul li {
+    margin: 5px 0;
+ 
+}
+
+.services ul li a {
+    font-size: 20px; /* Further reduce size */
+}
+
+.footer {
+    flex-direction: column; 
+    text-align: center;
+    padding: 5px;
+    height: auto;
+}
+
+.footer-left img {
+    width: 60%; /* Make logo smaller for mobile */
+    max-width: 200px; /* Prevent oversized logos */
+}
+
+.footer-right ul {
+    flex-direction: row; /* Keep icons in a row */
+    justify-content: center;
+    gap: 10px; /* Reduce gap between icons */
+    padding-top: 15px;
+}
+
+.footer-right img {
+    width: 40px; 
+}
+
+.footer div {
+    width: auto; 
+}
+
+.footer-rights {
+    font-size: 14px; 
+    padding: 10px 0;
+    margin-top: 5px;
+}
+}
+
+}
