@@ -373,15 +373,31 @@ margin-top: 10px;
 
 @media (max-width: 768px) {
 
-    nav{
-        max-height: 45px;
+    *{
+        margin: 0;
+        padding: 0;
     }
+
+    nav {
+        height: 44px;
+        /* padding-top: 5px; */
+        display: flex;
+        align-items: center;
+    }
+    
     nav ul {
         display: none;
     }
 
+    nav .left img {
+        width: 130px; /* Adjust size as needed */
+        height: auto; /* Maintain aspect ratio */
+    }
+    
+
     .firstSection {
-        padding-top: 15px;
+        padding-top: 10px;
+        margin-top: 0px;
         padding-left:2px;
         text-align: left; 
         height: 260px;
@@ -391,12 +407,12 @@ margin-top: 10px;
 
     .leftSection {
         font-size: 1.7rem;
-        margin-bottom: 20px; 
+        margin-bottom: 5px; 
     }
 
     .rightSection img {
-        width: 210px;
-        margin-top: 20px;
+        width: 175px;
+        margin-top: 5px;
     }
 
     #element {
@@ -496,20 +512,18 @@ margin-top: 10px;
 }
 
 .fourthSection img {
-    max-width: 100px;
+    max-width: 80px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
 .services ul {
-    align-items: center;
-
-   
+    align-items: center;   
 }
 
 .services ul li {
-    margin: 5px 0;
+    margin: 0px ;
  
 }
 
