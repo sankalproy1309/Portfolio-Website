@@ -109,10 +109,6 @@ video{
     width: 10px;
 }
 
-::-webkit-scrollbar-track{
-
-}
-
 ::-webkit-scrollbar-thumb{
 background: #106dbe;
 border-radius: 10px;
@@ -519,7 +515,8 @@ margin-top: 10px;
 }
 
 .services ul {
-    align-items: center;   
+    align-items: center;
+    gap: 10px;   
 }
 
 .services ul li {
@@ -565,4 +562,4 @@ margin-top: 10px;
 }
 }
 
-}
+
